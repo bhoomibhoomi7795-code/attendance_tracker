@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Tracker - Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">📋 Attendance Tracker</h1>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <h2>Welcome to Attendance Tracker</h2>
+            <p>Track and manage attendance records with ease</p>
+            <button class="cta-button">Get Started</button>
+        </div>
+    </header>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h3>Key Features</h3>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h4>📊 Easy Tracking</h4>
+                    <p>Quickly mark attendance and track records in real-time</p>
+                </div>
+                <div class="feature-card">
+                    <h4>📈 Analytics</h4>
+                    <p>View detailed reports and attendance statistics</p>
+                </div>
+                <div class="feature-card">
+                    <h4>👥 User Management</h4>
+                    <p>Manage multiple users and roles effortlessly</p>
+                </div>
+                <div class="feature-card">
+                    <h4>🔐 Secure</h4>
+                    <p>Protect sensitive attendance data with secure authentication</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h3>About This Project</h3>
+            <p>The Attendance Tracker is a simple yet powerful web application designed to streamline attendance management for schools, offices, and organizations. Start tracking today!</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Attendance Tracker. All rights reserved.</p>
+    </footer>
+</body>
+</html>
